@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>LLegamos al templates</h1>
+
+    <div>
+        <h1><a href="/">Django Girls Registro</a></h1>
+    </div>
+
+    {% for Usuario in lista_Usuarios %}
+    <div>
+        <p> publicado: {{ Usuario.nombre}}</p>
+        <h2><a href="">{{ Usuario.apellido }}</a></h2>
+        <p>{{ Usuario.edad }}</p>
+    </div>
+    {% endfor %}
+</body>
+
+</html>
