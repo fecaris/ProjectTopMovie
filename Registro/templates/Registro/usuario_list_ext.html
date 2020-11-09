@@ -1,0 +1,10 @@
+{% extends 'Registro/base.html' %}
+
+{% block content %}
+    {% for Usuario in lista_Usuarios %}
+        <div class="Usuario">
+            <h2><a href="">{{ Usuario.nombre }}</a></h2>
+            <p>{{ Usuario.apellido|linebreaksbr }}</p>
+        </div>
+    {% endfor %}
+{% endblock %}
