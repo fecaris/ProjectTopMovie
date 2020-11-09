@@ -163,3 +163,26 @@ justify-content: space-between;
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+.boton_1{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 25px;
+    color: black;
+
+    border-radius: 10px;
+    border: 3px double black;
+    text-align: left;
+    margin-right: 10px;
+}
+.boton_2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    font-size: 25px;
+    color: black;
+    border-radius: 10px;
+    border: 3px double black;
+    text-align: left;
+    margin-left: 10px;
+}

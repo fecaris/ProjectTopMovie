@@ -23,10 +23,4 @@ urlpatterns = [
     path('', include('Registro.urls')),
     #http://127.0.0.1:8000/listaUsuarios
     path('listaUsuarios',include('Registro.urls')),
-    #http://127.0.0.1:8000/top2020
-    path('top2020',include('Registro.urls')),
-    #http://127.0.0.1:8000/top2019
-    path('top2019',include('Registro.urls')),
-    #http://127.0.0.1:8000/noticias
-    path('noticias',include('Registro.urls')),
 ]
